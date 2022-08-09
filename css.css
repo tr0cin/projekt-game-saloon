@@ -3,6 +3,11 @@
   src: url(ARCADECLASSIC.TTF);
 }
 
+body {
+  background-color: black;
+  color: green;
+}
+
 .title {
   text-align: center;
   font-family: arcade;
@@ -11,6 +16,8 @@
 }
 
 .title h1 {
+  font-size: 48px;
+  letter-spacing: 10px;
   margin-bottom: 0px;
 }
 
@@ -23,6 +30,49 @@
   width: 570px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.machine {
+  display: inline-block;
+  background-image: url("graphics/template0.png");
+  filter: brightness(70%);
+  background-repeat: no-repeat;
+  width: 187px;
+  height: 265px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#game1 {
+  display: inline-block;
+  width: 187px;
+  height: 315px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#game2 {
+  display: inline-block;
+  width: 187px;
+  height: 315px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#game3 {
+  display: inline-block;
+  width: 187px;
+  height: 315px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .choose {
@@ -44,9 +94,4 @@
   bottom: 0;
   width: 100%;
   height: 2.5rem;
-}
-
-#game1:hover {
-background-image: url("graphics/onclicktemplate.png");
-background-repeat: no-repeat;
 }
