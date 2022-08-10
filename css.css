@@ -3,6 +3,19 @@
   src: url(ARCADECLASSIC.TTF);
 }
 
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:link {
+  color: green;
+}
+
+a:hover {
+  color: #20380f;
+}
+
 body {
   background-color: black;
   color: green;
@@ -37,6 +50,7 @@ body {
   background-image: url("graphics/template0.png");
   filter: brightness(70%);
   background-repeat: no-repeat;
+  cursor: pointer;
   width: 187px;
   height: 265px;
   margin-left: 0px;
@@ -73,6 +87,18 @@ body {
   margin-right: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+#game1:hover {
+  background-image: url("graphics/template1.png");
+}
+
+#game2:hover {
+  background-image: url("graphics/template2.png");
+}
+
+#game3:hover {
+  background-image: url("graphics/template3.png");
 }
 
 .choose {
