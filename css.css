@@ -121,3 +121,33 @@ body {
   width: 100%;
   height: 2.5rem;
 }
+
+canvas {
+  border: solid 1px #000;
+}
+
+.board {
+
+}
+
+#gameBoard {
+
+}
+
+.cardsContainer {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  display: inline-block;
+  width: 89px;
+  height: 151px;
+  background-image: url("graphics/cards/rewers.png");
+}
+
+.card:hover {
+  cursor: pointer;
+  border: 3px solid red;
+}
